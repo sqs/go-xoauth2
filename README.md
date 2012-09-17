@@ -15,7 +15,7 @@ Usage
     ...
     
     // returns unencoded string
-    xoauth2.XOAuth2String("alice", "some-access-token")
+    xoauth2.OAuth2String("alice", "some-access-token")
   
     // returns base64-encoded XOAUTH2 string, suitable for direct use in SASL XOAUTH2
     xoauth2.XOAuth2String("alice", "some-access-token")
